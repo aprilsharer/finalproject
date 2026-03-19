@@ -61,7 +61,7 @@ function updateSavedList() {
 
   for (var i = 0; i < savedAffirmations.length; i++) {
     var li = document.createElement('li')
-    li.textContent = '⭐ ' + savedAffirmations[i]
+    li.textContent = savedAffirmations[i]
     savedList.appendChild(li)
   }
 }
